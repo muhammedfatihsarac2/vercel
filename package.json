@@ -1,0 +1,50 @@
+{
+  "name": "makeshift-cdn",
+  "version": "1.0.0",
+  "description": "A small CDN that can be self hosted to provide content delivery for your own needs.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "express",
+    "CDN",
+    "content",
+    "delivery",
+    "expressjs",
+    "nodejs",
+    "node.js",
+    "express.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "git": "^0.1.5",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nanoid": "^3.1.27",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorataBaka/Makeshift-CDN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SorataBaka/Makeshift-CDN/issues"
+  },
+  "homepage": "https://github.com/SorataBaka/Makeshift-CDN#readme"
+}
