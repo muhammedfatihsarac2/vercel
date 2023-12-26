@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A small CDN that can be self hosted to provide content delivery for your own needs.",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
+
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon"
