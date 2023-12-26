@@ -4,7 +4,7 @@ const app = express();
 const fs=require(`fs`);
 const port = 3000;
 const mongoose=require(`mongoose`);
-const router=require(`src/router.js`);
+const router=require(`src/router`);
  
 module.exports = async() => {
   const URI = process.env['URI']
