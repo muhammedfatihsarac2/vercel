@@ -25,10 +25,6 @@ app.all(`/`, (req, res) => {
   })
 });
 
-if(!fs.existsSync("./data") || !fs.existsSync("./data/temp")){
-  fs.mkdir("./data/temp")
-}
-
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`)
